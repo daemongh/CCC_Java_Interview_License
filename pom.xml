@@ -64,9 +64,9 @@
     <ads.project>CAS</ads.project>
     <git.http.url>${git.scm.url}.git</git.http.url>
     <git.scm.url>https://github.com/${team.group.id}/${project.artifactId}</git.scm.url>
-    <git.url>git@ssh.dev.azure.com:v3:${team.group.id}/${ads.project}/${project.artifactId}</git.url>
-    <issue.management.url>https://dev.azure.com/${team.group.id}/${ads.project}/_workitems</issue.management.url>
-    <jenkins.url>https://dev.azure.com/${team.group.id}/${ads.project}</jenkins.url>
+    <!-- <git.url>git@ssh.dev.azure.com:v3:${team.group.id}/${ads.project}/${project.artifactId}</git.url> --> 
+    <!-- <issue.management.url>https://dev.azure.com/${team.group.id}/${ads.project}/_workitems</issue.management.url> --> 
+    <!-- <jenkins.url>https://dev.azure.com/${team.group.id}/${ads.project}</jenkins.url> --> 
     <nexus.site.url>https://nexus.somewhereelse.com/sites</nexus.site.url>
     <ib.license.email>admin@aisreview.com</ib.license.email>
     <site.path>com.cccis.casualty/ibparent-minimal/${project.version}</site.path>
